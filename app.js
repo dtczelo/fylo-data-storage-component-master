@@ -11,7 +11,7 @@ function counter() {
     let inc = function () {
         number === 185 ? clearInterval() : count.innerHTML = (number += 1) + "<span> GB LEFT</span>";
     };
-    setInterval(() => inc(), 10)
+    setInterval(() => inc(), 8)
 }
 
 signature.addEventListener("click", () => {
