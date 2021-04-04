@@ -13,7 +13,7 @@
 
 html {
     font-size: 14px;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     color: var(--Pale-Blue);
 }
 
@@ -189,7 +189,8 @@ footer {
     text-align: center;
     box-shadow: 0 2px 20px -8px #1f0902a8;
     opacity: 0.7;
-    transition: background-color 0.4s ease, opacity 0.2s ease, box-shadow 0.4s ease, height 0.4s ease, border-radius 0.4s ease, width 0.4s ease;
+    transition: background-color 0.4s ease, opacity 0.2s ease, box-shadow 0.4s ease, height 0.4s ease, border-radius 0.4s ease,
+        width 0.4s ease;
     cursor: pointer;
     &:hover {
         box-shadow: 0 10px 40px -8px #1f0902a6;
@@ -262,12 +263,11 @@ footer {
                 height: 10px;
                 display: block;
                 left: 87.5%;
-                top: 100%;
+                top: 99%;
                 position: absolute;
-                border-top : 15px solid #fff;
-                border-left : 20px solid transparent;
+                border-top: 15px solid #fff;
+                border-left: 20px solid transparent;
             }
         }
     }
 }
-
